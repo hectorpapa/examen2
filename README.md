@@ -18,3 +18,25 @@ int main() {
 
     return 0;
 }
+
+
+codigo 2
+
+#include <iostream>
+
+int main() {
+    int altura;
+
+    // Solicitar al usuario la altura de la pirámide
+    std::cout << "Ingrese la altura de la piramide: ";
+    std::cin >> altura;
+
+    for (int i = 1; i <= altura; i++) {
+        for (int j = 1; j <= i; j++) {
+            std::cout << j << " ";
+        }
+        std::cout << std::endl;
+    }
+
+    return 0;
+}
