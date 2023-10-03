@@ -55,6 +55,33 @@ int main() {
     if (numero % 3 == 0) {
         std::cout << numero << " es multiplo de 3." << std::endl;
     } else {
+
+    codigo 4
+
+    #include <stdio.h> 
+
+int main() {
+    int n1, n2, resultado, suma;
+    
+    printf("Introduzca un numero:\n");
+    scanf("%d", &n1);
+    
+    printf("Introduzca otro numero:\n");
+    scanf("%d", &n2);
+    
+    resultado = n1 + n2; 
+    
+    printf("Cuanto suman?:\n");
+    scanf("%d", &suma);
+    
+    if (suma == resultado) { 
+        printf("Correcto\n");
+    } else {
+        printf("INCORRECTO: La suma es %d\n", resultado); 
+    }
+    
+    return 0;
+}
         std::cout << numero << " no es multiplo de 3." << std::endl;
     }
 
