@@ -1,6 +1,7 @@
 # examen2
 
 codigo 1
+
 #include <iostream>
 #include <cstdlib> 
 #include <ctime>   
