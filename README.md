@@ -55,6 +55,10 @@ int main() {
     if (numero % 3 == 0) {
         std::cout << numero << " es multiplo de 3." << std::endl;
     } else {
+   std::cout << numero << " no es multiplo de 3." << std::endl;
+    }
+    return 0;
+}
 
     codigo 4
 
@@ -80,10 +84,5 @@ int main() {
         printf("INCORRECTO: La suma es %d\n", resultado); 
     }
     
-    return 0;
-}
-        std::cout << numero << " no es multiplo de 3." << std::endl;
-    }
-
     return 0;
 }
