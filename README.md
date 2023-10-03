@@ -40,3 +40,23 @@ int main() {
 
     return 0;
 }
+
+
+codigo 3
+
+#include <iostream>
+
+int main() {
+    int numero;
+
+    std::cout << "Ingrese un numero: ";
+    std::cin >> numero;
+
+    if (numero % 3 == 0) {
+        std::cout << numero << " es multiplo de 3." << std::endl;
+    } else {
+        std::cout << numero << " no es multiplo de 3." << std::endl;
+    }
+
+    return 0;
+}
